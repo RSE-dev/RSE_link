@@ -9,7 +9,7 @@ This repository contains the specification and reference implementation of a gen
 
 ## Table of Contents
 
-1. [Overview](#Overview)  
+1. [Overview](#overview)  
 2. [Packet Structure](#Packet-Structure)  
 3. [Field Descriptions](#field-descriptions)  
    - [ProtocolVersion](#protocolversion)  
