@@ -22,7 +22,8 @@ typedef enum {
 
 typedef enum {
     PC_HOST_ID = 0,
-    RSE_LEX_MASTERCOM_ID = 1
+    RSE_LEX_MASTERCOM_CH1_ID = 1,
+    RSE_LEX_MASTERCOM_CH2_ID = 2
 } RSE_SYSTEM_ID;
 
 /* ComponentID ranges: */
