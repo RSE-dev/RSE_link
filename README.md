@@ -430,8 +430,8 @@ Document any new `ComponentID`s and their meaning in a device-specific appendix 
 
 ## License
 
-This protocol specification and reference implementation are released under the **MIT License**. See [LICENSE](LICENSE) for details.  
+This protocol specification and reference implementation are released under the **MIT License**.
 
 ---
 
-_Remark: Version 2.0 is designed to be extensible across a broad range of studio effect units. For any questions or contributions, please open an issue or submit a pull request._
+_Remark: Version 1.0 is designed to be extensible across a broad range of studio effect units. For any questions or contributions, please open an issue or submit a pull request._
