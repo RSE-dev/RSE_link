@@ -9,8 +9,8 @@ This repository contains the specification and reference implementation of a gen
 
 ## Table of Contents
 
-1. [Overview](#overview)  
-2. [Packet Structure](#packet-structure)  
+1. [Overview](#1.-Overview)  
+2. [Packet Structure](#2.-Packet-Structure)  
 3. [Field Descriptions](#field-descriptions)  
    - [ProtocolVersion](#protocolversion)  
    - [SystemID](#systemid)  
