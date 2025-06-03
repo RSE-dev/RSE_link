@@ -84,8 +84,7 @@ typedef enum {
     HOST_LINE_0      = 0xF0,
     DEVICE_ID        = 0xF1,
     FIRMWARE_VERSION = 0xF2,
-    POWER_OFF = 0xF3,
-    POWER_ON = 0xF4,
+    POWER_OFF_ON     = 0xF3,
 } RSE_COMPONENT_ID;
 
 typedef enum {
