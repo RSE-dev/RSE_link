@@ -1,7 +1,7 @@
 
-# RSE USB Control Protocol
+# RSE Serial Control Protocol
 
-**Version 2.0**
+**Version 1.0**
 
 This repository contains the specification and reference implementation of a generalized USB-based control protocol for studio effect devices—such as preamps, compressors, equalizers, delay/reverb units, and more—connecting them to a host PC.  
 
