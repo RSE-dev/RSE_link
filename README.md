@@ -86,10 +86,11 @@ typedef enum {
 - **Bit 3–4**  
 - Specifies the origin or destination of the packet:
 
-| Value | Name                        | Description            |
-|:-----:|-----------------------------|------------------------|
-| `0`   | PC_HOST_ID                  | Host PC (USB host)     |
-| `1`   | RSE_LEX_MASTERCOM_ID        | Generic studio device  |
+| Value | Name                        | Description             |
+|:-----:|-----------------------------|-------------------------|
+| `0`   | PC_HOST_ID                  | Host PC (USB host)      |
+| `1`   | RSE_LEX_MASTERCOM_CH1_ID    | Rse LEX compressor Left |
+| `2`   | RSE_LEX_MASTERCOM_CH2_ID    | Rse LEX compressor Right|
 
 *(Additional values can be reserved for specific manufacturers or device families.)*
 
