@@ -54,6 +54,7 @@ typedef enum {
     COMP_SIDECHAIN   = 0x26,
     COMP_GAIN_IN     = 0x27,
     COMP_GAIN_OUT     = 0x28,
+    COMP_MIX         = 0x29,
 
     /* Equalizer */
     EQ_BAND1_FREQ    = 0x40,
