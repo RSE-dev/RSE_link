@@ -224,8 +224,8 @@ typedef enum {
 
 | ID   | Name               | Description                          | Value Interpretation         |
 |:----:|--------------------|--------------------------------------|------------------------------|
-| 0xE0 | `METER_INPUT_LEVEL`| Input level metering                 | 0–255 = –Infinity … 0 dBFS   |
-| 0xE1 | `METER_OUTPUT_LEVEL`| Output level metering               | 0–255 = –Infinity … 0 dBFS   |
+| 0xE0 | `METER_INPUT_LEVEL`| Input level metering                 | 0–255 = –Infinity … +22 dBFu |
+| 0xE1 | `METER_OUTPUT_LEVEL`| Output level metering               | 0–255 = –Infinity … +22 dBFu |
 | 0xE2 | `METER_COMPRESSION`| Compression amount metering          | 0–255 scaled to 0 … 100 %    |
 | 0xE3 | `STATUS_TEMPERATURE`| Internal temperature (°C)            | 0–255 mapped to 0 … 255 °C  |
 
