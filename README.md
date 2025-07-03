@@ -130,9 +130,7 @@ typedef enum {
 typedef enum {
   READ_VALUE_MSG        = 0,
   SET_VALUE_MSG         = 1,
-  UPDATE_VALUE_MSG      = 2,
   RESPONSE              = 3,
-  IDENTIFY_DEVICE_MSG   = 4
 } RSE_MSG_TYPE_ID;
 ```
 
@@ -277,7 +275,7 @@ uint8_t compute_crc4(uint32_t packet_bits28) {
 | SystemID         | `RSE_LEX_MASTERCOM_ID (1)`                |
 | PacketSequence   | `0`                                       |
 | ComponentID      | `DEVICE_ID (0xF1)`                        |
-| MessageID        | `IDENTIFY_DEVICE_MSG (4)`                 |
+| MessageID        | `READ_VALUE_MSG (0)`                      |
 | MessageValue     | `0`                                       |
 | CheckSum         | `CRC4 over first 28 bits`                 |
 
