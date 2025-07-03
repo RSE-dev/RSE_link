@@ -91,7 +91,6 @@ typedef enum {
     READ_VALUE_MSG         = 0,
     SET_VALUE_MSG          = 1,
     RESPONSE               = 2,
-    IDENTIFY_DEVICE_MSG    = 3
 } RSE_MSG_TYPE_ID;
 
 typedef struct {
