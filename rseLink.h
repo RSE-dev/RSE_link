@@ -85,6 +85,7 @@ typedef enum {
     DEVICE_ID        = 0xF1,
     FIRMWARE_VERSION = 0xF2,
     POWER_OFF_ON     = 0xF3,
+    SERIAL_NUMBER    = 0xF4,
 } RSE_COMPONENT_ID;
 
 typedef enum {
