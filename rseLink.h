@@ -90,7 +90,7 @@ typedef enum {
 typedef enum {
     READ_VALUE_MSG         = 0,
     SET_VALUE_MSG          = 1,
-    RESPONSE               = 2,
+    RESPONSE_MSG           = 2,
 } RSE_MSG_TYPE_ID;
 
 typedef struct {
