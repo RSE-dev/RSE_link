@@ -103,10 +103,4 @@ typedef struct {
     uint32_t MessageValue    : 8;
     uint32_t CheckSum        : 4;
 } RSE_PACKET;
-
-uint8_t RSE_link_processInputData(uint32_t data);
-uint32_t RSE_link_processOutputMessage(RSE_PACKET packet);
-uint8_t RSE_link_respondResult(uint8_t success);
-uint8_t RSE_link_respondValue(uint8_t channel, uint8_t value);
-
 #endif /* INC_RSELINK_H_ */
